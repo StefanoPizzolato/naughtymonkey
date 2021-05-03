@@ -1,0 +1,151 @@
+body {
+    background-color: #EDDDD4;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    background-color: #283D3B;
+}
+
+main {
+    margin-top: 75px;
+    padding: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #283D3B;
+}
+
+main a {
+    color: #C64430;
+    font-size: large;
+    text-decoration: none;
+}
+
+p {
+    margin-block-start: 0em;
+}
+
+ul {
+    margin: 0;
+}
+
+.navbar-logo {
+    position: 1;
+    height: 50px;
+    margin-right: 60px;
+    padding: auto;
+    margin-top: 12px;
+}
+
+.navbar li {
+    font-family: 'IM Fell English', serif;
+    float: left;
+    display: block;
+    /*min-width: 150px;*/
+    height: 15vh;
+    line-height: 15vh;
+    white-space: nowrap;
+}
+
+.navbar a {
+    color: #EDDDD4;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.navbar a:visited {
+    color: #EDDDD4;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    max-width: 850px;
+    margin: auto;
+}
+
+.twocols {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4vw;
+}
+
+.col-first {
+    text-align: center;
+    flex: 1 1 200px;
+    border: 0px;
+    border-style: solid;
+}
+
+.col-second {
+    flex: 3 1 300px;
+    border: 0px;
+    margin: 0 20px 0 20px;
+    border-style: none;
+}
+
+.picphoto {
+    max-width: 300px;
+    width: 100%;
+}
+
+.download-link {
+    display: block;
+    margin: 20px 0 20px 0;
+}
+
+.homepage {
+    background-color: #283D3B;
+}
+
+.homepage footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+footer .footer-wave {
+    position: fixed;
+    top: 80vh;
+    z-index: 5;
+    width: 100%;
+}
+
+footer .footer-filler {
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    height: 15vh;
+    width: 100%;
+    background-color: #197278;
+}
+
+.logo-area{
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}

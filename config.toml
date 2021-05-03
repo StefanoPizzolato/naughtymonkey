@@ -1,0 +1,4 @@
+baseURL = "http://www.naughtymonkey.studio/"
+languageCode = "en-us"
+title = "Naughty Monkey Studio"
+theme = "gibbon"

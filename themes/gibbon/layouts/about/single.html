@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div class="twocols">
+            <div class="col-first">
+                <img src="{{.Params.profilePhoto}}" alt="Stefano Pizzolato" class="picphoto"><br>
+                <a href="{{.Params.cvLink}}" class="download-link"><b>[Download CV]</b></a>
+            </div>
+            <div class="col-second">{{.Content}}</div>
+        </div>
+    </main>
+{{ end }}
